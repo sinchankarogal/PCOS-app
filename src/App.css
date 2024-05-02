@@ -1,38 +1,78 @@
-.App {
-  text-align: center;
+/* Header container styles */
+header {
+  background-color: rgba(0, 102, 255, 0.893); /* Header background color */
+  border-bottom: 2px solid #000; /* Black border */
+  padding: 20px; /* Header padding */
+  display: flex; /* Use flexbox for alignment */
+  justify-content: space-between; /* Align items horizontally */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Logo styles */
+.logo {
+  margin-right: 20px; /* Add spacing between logo and navigation */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Navigation styles */
+nav ul {
+  list-style-type: none; /* Remove default list styles */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+nav ul li {
+  display: inline-block; /* Display navigation links horizontally */
+  margin-right: 100px; /* Add spacing between navigation links */
 }
 
-.App-link {
-  color: #61dafb;
+nav ul li:last-child {
+  margin-right: 0; /* Remove margin from last navigation link */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+nav ul li a {
+  color: white; /* Navigation link text color */
+  text-decoration: none; /* Remove default underline */
+  font-size: 16px; /* Navigation link font size */
+}
+
+nav ul li a:hover {
+  text-decoration: underline; /* Underline navigation link on hover */
+}
+
+/* Center-align login section */
+.login-section {
+  text-align: center; /* Center-align login section */
+  margin-top: 20px; /* Add some top margin for spacing */
+}
+
+/* Container for username and password */
+.login-input-container {
+  display: flex; /* Use flexbox for layout */
+  justify-content: center; /* Center-align items horizontally */
+  border: 1px solid #ccc; /* Add border to container */
+  border-radius: 4px; /* Add border radius */
+}
+
+/* Style for username and password input fields */
+.login-input-container input[type="text"],
+.login-input-container input[type="password"] {
+  flex: 1; /* Allow input fields to grow equally */
+  padding: 8px; /* Add padding for input fields */
+  border: none; /* Remove default input border */
+  border-radius: 0; /* Remove border radius */
+  font-size: 16px; /* Set font size */
+}
+
+/* Style for submit button */
+.login-section input[type="submit"] {
+  margin-top: 10px; /* Add top margin for spacing */
+  background-color: #007bff; /* Button background color */
+  color: #fff; /* Button text color */
+  padding: 10px 20px; /* Button padding */
+  border: none; /* Remove button border */
+  border-radius: 4px; /* Add border radius */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.login-section input[type="submit"]:hover {
+  background-color: #0056b3; /* Darker background color on hover */
 }

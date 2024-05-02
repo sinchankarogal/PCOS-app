@@ -1,0 +1,62 @@
+/* InformationalPages.css */
+
+.information-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.pcos-section {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.pcos-text {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.pcos-image img {
+  width: 180%;
+  max-width: 400px; /* Adjust as needed */
+}
+
+.information-container {
+    padding: 20px; /* Add padding */
+    background-color: #f9f9f9; /* Light background color */
+    border-radius: 10px; /* Add border radius */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add box shadow */
+  }
+  
+  /* Heading styles */
+  .information-container h2 {
+    color: #333; /* Dark text color */
+    text-align: center; /* Center-align heading */
+    margin-bottom: 20px; /* Add bottom margin */
+  }
+  
+  /* Subheading styles */
+  .information-container h3 {
+    color: #007bff; /* Blue text color */
+    text-align: center; /* Center-align heading */
+    margin-bottom: 10px; /* Add bottom margin */
+  }
+  
+  /* Paragraph styles */
+  .information-container p {
+    color: #666; /* Medium text color */
+    line-height: 1.6; /* Increase line height for readability */
+  }
+  
+  /* Add border and padding to each section */
+  .information-container > div {
+    border-bottom: 1px solid #ccc; /* Add bottom border */
+    padding-bottom: 20px; /* Add bottom padding */
+    margin-bottom: 20px; /* Add bottom margin */
+  }
+  
+  /* Remove border from last section */
+  .information-container > div:last-child {
+    border-bottom: none; /* Remove bottom border */
+  }
+  

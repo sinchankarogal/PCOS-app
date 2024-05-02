@@ -1,0 +1,102 @@
+/* 
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 40px);
+    gap: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .calendar-cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  .highlighted-date {
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+  }
+   */
+
+
+   .period-tracker-container {
+    width: 400px; /* Adjust width as needed */
+    margin: 100px auto; /* Center the period tracker container */
+    padding: 40px; /* Add padding for better spacing */
+    background-color: #f9f9f9; /* Background color for period tracker container */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+}
+
+.period-tracker-container h2 {
+    text-align: center; /* Center-align the heading */
+    margin-bottom: 30px; /* Add space below heading */
+    color: #333; /* Heading color */
+}
+
+.form-container {
+    width: 100%; /* Full width form */
+}
+
+.form-container label {
+    font-size: 16px; /* Label font size */
+    color: #555; /* Label color */
+}
+
+.form-container input[type="date"] {
+    width: 100%; /* Full width input */
+    padding: 10px; /* Add padding for input */
+    margin-bottom: 20px; /* Add space below input */
+    border: 1px solid #ccc; /* Input border */
+    border-radius: 4px; /* Rounded corners */
+}
+
+.form-container button {
+    width: 100%; /* Full width button */
+    padding: 12px; /* Add padding for button */
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none; /* Remove button border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Add pointer cursor on hover */
+}
+
+.form-container button:hover {
+    background-color: #0056b3; /* Darker background color on hover */
+}
+
+.calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 40px);
+    gap: 5px;
+    margin-bottom: 20px;
+}
+
+.calendar-cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.highlighted-date {
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+}
