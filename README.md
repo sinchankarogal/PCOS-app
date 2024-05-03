@@ -68,3 +68,50 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# Problem statement 
+
+Design an interactive website aiming to empower individuals with PCOS by offering educational resources, including reliable information on PCOS, a menstrual cycle tracker, a user-friendly symptom monitoring tool, and engaging blog content covering diverse PCOS-related topics.
+
+# Mapping to SDG 
+
+Addressed SDG 3: Ensure healthy lives and promote well-being for all at all ages. 
+
+
+
+Target Addressed:
+SDG 3.7
+By 2030, ensure universal access to sexual and reproductive health-care services, including for family planning, information and education, and the integration of reproductive health into national strategies and programmes.
+
+
+# Objectives 
+
+1.Serve as an educational hub to increase awareness about PCOS, providing reliable information.
+
+2.Provide a feature for keeping track of the menstrual cycle.
+
+3.Offer a user-friendly symptom tracker tool to help individuals monitor PCOS symptoms effectively, facilitating better communication with healthcare providers.
+
+4.Curate informative and engaging blog content covering various aspects of PCOS to educate individuals navigating their PCOS journey.
+
+
+# Website Overview 
+
+The website aims to address the lack of accessible and comprehensive resources for women diagnosed with Polycystic Ovary Syndrome (PCOS), by providing educational content, symptom tracking tools, and community support, contributing to the promotion of healthy lives and well-being, in alignment with Sustainable Development Goals 3 and 3.7.
+
+
+# Features of website 
+
+1.Login/Register Page
+
+2.Information about PCOS 
+
+3.Health Insights - Blogs
+
+4.Symptoms tracker
+
+5.Menstrual Tracker
+
+
+
+
