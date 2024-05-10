@@ -104,13 +104,26 @@ The website aims to address the lack of accessible and comprehensive resources f
 
 1.Login/Register Page
 
+![alt text](LoginPage.jpeg)
+
 2.Information about PCOS 
+
+![alt text](Information.jpeg)
 
 3.Health Insights - Blogs
 
+![alt text](Blog.png)
+
 4.Symptoms tracker
 
+![alt text](SymptomTracker.png)
+
 5.Menstrual Tracker
+
+![alt text](Tracker.jpeg)
+
+6.ChatBot
+<img width="1120" alt="Screenshot 2024-05-10 140124" src="https://github.com/sinchankarogal/PCOS-app/assets/105227450/f3e9863c-4753-4e3d-a90d-019260a403fc">
 
 
 
